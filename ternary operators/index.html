@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Age Input Example</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <h1>Enter Your Age</h1>
+    
+    <form id="age-form" onsubmit="return handleFormSubmit()">
+        <label for="age-input">Age:</label>
+        <input type="number" id="age-input" name="age-input" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <p id="output"></p>
+
+</body>
+</html>
